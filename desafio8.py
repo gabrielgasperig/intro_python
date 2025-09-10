@@ -9,3 +9,29 @@ d. Sistema exibe a pontuação do usuário.
 
 Obs: Pontuação máxima = 50.
 '''
+
+def calcular_pontos(resposta):
+    sequencia = ['B', 'C', 'D', 'A']
+    pontos = 0
+    resposta = []
+
+    for i in range(4):
+        carta = input(f'Digite a carta da posição {i + 1}: ').upper()
+        resposta.append(carta[0])
+
+    for i in range(4):
+        if resposta[i] == sequencia[i]:
+            pontos += 10
+        
+        if resposta[i] == 'A':
+            pontos += 5
+        
+        if resposta[i] == 'C' and resposta[i + 1] == 'D':
+            pontos += 5
+
+    if pontos > 50:
+        pontos = 50
+    
+    print(f'Pontuacao final: {pontos}')
+      
+calcular_pontos(0)
