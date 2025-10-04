@@ -44,7 +44,13 @@ O objetivo deste trabalho foi evoluir da simples implementação de algoritmos p
 │
 ├── desafio_01.py       # Solução do Desafio 1
 ├── desafio_02.py       # Solução do Desafio 2
-├── ...                 # (demais arquivos de desafio)
+├── desafio_03.py       # Solução do Desafio 3
+├── desafio_04.py       # Solução do Desafio 4
+├── desafio_05.py       # Solução do Desafio 5
+├── desafio_06.py       # Solução do Desafio 6
+├── desafio_07.py       # Solução do Desafio 7
+├── desafio_08.py       # Solução do Desafio 8
+├── desafio_09.py       # Solução do Desafio 9
 └── desafio_10.py       # Solução do Desafio 10
 ```
 
