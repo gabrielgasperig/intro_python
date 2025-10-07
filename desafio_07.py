@@ -34,7 +34,7 @@ def executar_desafio_07():
     """
     print("\n--- Desafio 7: Classificação de Risco Financeiro ---")
     
-    # A idade é solicitada conforme o original, mas não entra no cálculo de risco.
+    # A idade é solicitada, mas não entra no cálculo de risco.
     _ = obter_int("Digite a sua idade: ")
     
     renda = obter_float_positivo("Digite a sua renda mensal: R$")

@@ -18,7 +18,7 @@ def verificar_situacao_voto(idade: int, nacionalidade: str) -> str:
     if nacionalidade == 'estrangeiro':
         return "Voto opcional para estrangeiros."
         
-    # Para brasileiros, o voto é opcional entre 16 anos e 18 anos.
+    # Para brasileiros, o voto é opcional entre 16 e 18 anos.
     if 16 <= idade < 18 or idade > 70: # Voto também é opcional para maiores de 70
         return "Voto opcional."
     
